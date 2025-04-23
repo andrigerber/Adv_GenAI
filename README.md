@@ -108,6 +108,7 @@ python Code/step_1_BeautifulSoup.py data data_cleaned/data_cleaned_BS
 ```bash
 python python Code/step_1_Docling.py data data_cleaned/data_cleaned_D
 ```
+
 3. Implement a hybrid approach (BeautifulSoup + Docling) to compare the effectiveness of both tools and optimize extraction quality.
 
 **Run:**
