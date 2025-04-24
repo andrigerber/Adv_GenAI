@@ -2,64 +2,6 @@
 
 A repository for advanced generative AI projects focused on building a Retrieval-Augmented Generation (RAG) system.
 
-## Directory Structure
-
-### Code Directory
-- **Code from Professor:**
-  - **README.txt** – Introductory guide for the codebase.
-  - **config_v2.txt** – Azure AI configuration (server URL, API key, deployment details).
-  - **digester_cmd_v2.py** – Processes PDFs (using Tesseract for OCR) and saves embeddings in `./chroma_db`.
-  - **openaicalls_cmd_v2.py** – Sets up LLM chat and embedding tasks via API calls.
-  - **rag_retrieve_cmd_v2.py** – Implements the RAG pipeline for Q&A.
-  - **reqs.txt** – Lists required Python libraries.
-- **Code from Project:**
-  - **step_1_BeautifulSoup.py** – Parses HTML files using BeautifulSoup.
-  - **step_1_Docling.py** – Parses HTML files using Docling.
-  - **step_1_hybrid.py** – Hybrid approach combining BeautifulSoup and Docling.
-
-### Benchmark Directory
-- **BenchmarkQuestions.pdf** – Set of benchmark questions.
-- **BenchmarkQuestionsAnswers.pdf** – Answers for validating system performance.
-
-### Data Directory
-- Stores datasets used for preprocessing, training, testing, and benchmarking the RAG system.
-
-### Project Requirements
-- **Project Requirements.pdf** – Detailed specifications covering:
-  - Data preparation (HTML parsing, cleaning, metadata enrichment)
-  - RAG system development (pre-retrieval strategies, re-ranking, hybrid retrieval)
-  - Evaluation (automated metrics and human assessment)
-
-## Usage
-**Code from Professor:**
-1. **Setup:**
-   ```bash
-   pip install -r Code/reqs.txt
-    ```
-
-2. Update `config_v2.txt` with your Azure AI credentials.
-
-**Generate Embeddings:**
-
-```bash
-python Code/digester_cmd_v2.py <PDF_directory>
-```
-
-3. **Run the RAG Pipeline:**
-
-```bash
-python Code/rag_retrieve_cmd_v2.py "Your query here"
-```
-
-## Overview
-**Data Preparation:** Extract and clean text from HTML files and enrich with metadata.
-
-**RAG System:** Leverages BM25, semantic search, GraphRAG, and hybrid retrieval techniques.
-
-**Evaluation:** Utilizes automated metrics (e.g., Precision@k, Recall, MRR) and human assessments.
-
-
------------------------
 # --> Acutal documentation starts here
 
 # Advanced Generative AI Project: Retrieval-Augmented Generation (RAG) System
@@ -124,18 +66,106 @@ python Code/step_1_hybrid.py data data_cleaned/data_cleaned_BSD
 
 We add metadata to the cleaned data, including:
 ```json
-data_dict = {
-        "filename": file_path.name,   # the name of the file without the path (end with ".html")
-        "language": lang_code,        # decided by lingua e.g. "de", "en"
-        "title": title_text,          # not filled yet could maybe take file name without ".html"
-        "date": date_standard,        # took from the file path
-        "source": "ETH News",         # same for all
-        "main_content": clean_text,   # the main content of the article
-        "named_entities": entities,   # with spaCy
-        "keywords": keywords,         # with YAKE
-        "summary": summary,           # at the moment only the first two sentences of "main_content"
-        "semantic_chunk_hints": [],   # not filled yet
-        "embedding_vector": []        # not filled yet
-    }
+{
+ "doc_id": "9b7f034dc9cd5fd1b...",
+ "filename": "example.html",
+ "domain": "ethz.ch",                   // domain of the website here always "ethz.ch"
+ "language": "de",
+ "title": "",                           // not implemented
+ "date": "2023-05-01",                  // always YYYY-MM-01
+ "year": 2023,
+ "month": 5,
+ "source": "ETH News",                  // always ETH News
 
+ "main_content": "Margrit Leuthold has been the Executive ...",
+ "paragraphs_original": [
+    "## About the author",
+        "Margrit Leuthold has been the Executive ...",
+        "## Subscribe to Newsletter",
+        "Subscribe to the Newsletter for internal news",
+        "## Staffnet",
+        "Info portal for employees ..."
+],
+ "paragraphs_cleaned": [
+   "Margrit Leuthold has been the Executive ...",
+   "... cleaned paragraph 2 if any ..."
+ ],
+
+ "named_entities": [
+   {"text": "Margrit Leuthold", "label": "PERSON"},
+   {"text": "ETH Zurich", "label": "ORG"}
+ ],
+ "keywords": ["Margrit Leuthold", "Bangalore", "Executive Director"],
+ "summary": "Margrit Leuthold has been the Executive Director ...",
+ "text_stats": {
+   "char_count": 864,
+    "word_count": 128,
+    "paragraph_count": 1
+ },
+ "semantic_chunk_hints": [
+   {"type": "paragraph_boundaries", "count": 1}
+ ],
+ "embedding_vector": [], // for later
+ "doc_embedding": []     // for later
+}
 ```
+
+**Validation Drop Empty cleaned paragraphs**
+**Run:**
+```bash
+python Code/step_1_3_validation_filter.py data_cleaned/BSD_advanced data_cleaned/BSD_advanced_validated
+```
+
+--------------------
+# From Prof as orientation
+## Directory Structure
+
+### Code Directory
+- **Code from Professor:**
+  - **README.txt** – Introductory guide for the codebase.
+  - **config_v2.txt** – Azure AI configuration (server URL, API key, deployment details).
+  - **digester_cmd_v2.py** – Processes PDFs (using Tesseract for OCR) and saves embeddings in `./chroma_db`.
+  - **openaicalls_cmd_v2.py** – Sets up LLM chat and embedding tasks via API calls.
+  - **rag_retrieve_cmd_v2.py** – Implements the RAG pipeline for Q&A.
+  - **reqs.txt** – Lists required Python libraries.
+
+### Benchmark Directory
+- **BenchmarkQuestions.pdf** – Set of benchmark questions.
+- **BenchmarkQuestionsAnswers.pdf** – Answers for validating system performance.
+
+### Data Directory
+- Stores datasets used for preprocessing, training, testing, and benchmarking the RAG system.
+
+### Project Requirements
+- **Project Requirements.pdf** – Detailed specifications covering:
+  - Data preparation (HTML parsing, cleaning, metadata enrichment)
+  - RAG system development (pre-retrieval strategies, re-ranking, hybrid retrieval)
+  - Evaluation (automated metrics and human assessment)
+
+## Usage
+**Code from Professor:**
+1. **Setup:**
+   ```bash
+   pip install -r Code/reqs.txt
+    ```
+
+2. Update `config_v2.txt` with your Azure AI credentials.
+
+**Generate Embeddings:**
+
+```bash
+python Code/digester_cmd_v2.py <PDF_directory>
+```
+
+3. **Run the RAG Pipeline:**
+
+```bash
+python Code/rag_retrieve_cmd_v2.py "Your query here"
+```
+
+## Overview
+**Data Preparation:** Extract and clean text from HTML files and enrich with metadata.
+
+**RAG System:** Leverages BM25, semantic search, GraphRAG, and hybrid retrieval techniques.
+
+**Evaluation:** Utilizes automated metrics (e.g., Precision@k, Recall, MRR) and human assessments.
