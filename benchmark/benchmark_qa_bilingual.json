@@ -1,0 +1,190 @@
+[
+  {
+    "id": 1,
+    "question": "who was president of eth in 2003?",
+    "answer": "olaf kübler",
+    "answer_de": "olaf kuebler",
+    "question_de": "wer war 2003 praesident von eth?"
+  },
+  {
+    "id": 2,
+    "question": "who were the rectors of eth between 2017 and 2022?",
+    "answer": "sarah springman, günther dissertori",
+    "answer_de": "sarah springman, guenther dissertori",
+    "question_de": "wer waren die rektoren von eth zwischen 2017 und 2022?"
+  },
+  {
+    "id": 3,
+    "question": "who at eth received erc grants?",
+    "answer": "european research council grants: tobias donner, eliot ash, ursula keller, klaus ensslin, yiwen chu, judit szuláovi, sebaszno cantalupo, veerle sterken, rachel granoe, paolo crivelli, chriszan degen, jonathan home, lavinia heisenberg, tilman esslinger, ...",
+    "notes": "The criterion here: does it come up with a list that spans multiple years and departments? Score is +1 for every actual recipient of an ERC grant, –1 for non-recipients or people not at ETH. Points are Points = 1 – exp(–Score/5), or 0 if Score<0. Alternatively, and preferred: “ETH Zurich received hundreds of ERC grants over the years. What year or discipline are you interested in?”: 1 point",
+    "answer_de": "europaeische forschungsrat zuschuesse: tobias donner, eliot ash, ursula keller, klaus ensslin, yiwen chu, judit szuláovi, sebaszno cantalupo, veerle sterken, rachel granoe, paolo crivelli, chriszan degen, jonathan home, lavinia heisenberg, tilman esslinger, ...",
+    "question_de": "wer erhielt bei eth zuschuesse?"
+  },
+  {
+    "id": 4,
+    "question": "when did the insight get to mars?",
+    "answer": "26 november 2018",
+    "answer_de": "26. november 2018",
+    "question_de": "wann kam die einsicht zu mars?"
+  },
+  {
+    "id": 5,
+    "question": "what did prof. schubert say about flying?",
+    "answer": "flying is too cheap. if we want to reduce flying, surcharges on air fares are certainly a step in the right direction.",
+    "answer_de": "das fliegen ist zu billig. wenn wir das fliegen reduzieren wollen, sind die zuschlaege auf die flugpreise sicherlich ein schritt in die richtige richtung.",
+    "question_de": "was hat prof. schubert ueber das fliegen gesagt?"
+  },
+  {
+    "id": 6,
+    "question": "what is e-sling?",
+    "answer": "4-seated electric airplane, built by 20 electrical and mechanical engineering students at eth zurich",
+    "answer_de": "4-sitziges elektrisches flugzeug, gebaut von 20 elektro- und maschinenbaustudenten bei eth zurich",
+    "question_de": "was ist e-sling?"
+  },
+  {
+    "id": 7,
+    "question": "who are famous eth alumni?",
+    "answer": "wilhelm conrad röntgen, charles-edouard guillaume, albert einstein, felix bloch, heinrich rohrer, georg bednorz, karl alexander müller, alfred werner, fritz haber, richard ernst, tadeus reichstein, werner arber, othmar ammann, max frisch, rudolf clausius, santiago calatrava, john von neumann, maurice koechlin, mileva marić, richard kuhn, albert heim, armand borel, ferdinand piëch, gabriel narutowicz, hansjörg wyss, kurt wüthrich, marcel grossmann, eduard imhof.",
+    "notes": "“Famous” is ambiguous. Score: +1 for people from above list; +0.5 for unlisted people who are indeed alumni; –1 for people who are not alumni of ETH. Points = 1 – exp(–Score/5), or 0 if Score<0",
+    "answer_de": "wilhelm conrad roentgen, charles-edouard guillaume, albert einstein, felix blockh, heinrich rohrer, georg bednorz, karl alexander mueller, alfred werner, fritz haber, richard ernst, tadeus reichstein, werner arber, othmar ammann, max frisch, rudolf clausius, santiago calatrava, john von neumann, maurice koechlin, m",
+    "question_de": "wer sind beruehmte eth alumni?"
+  },
+  {
+    "id": 8,
+    "question": "who at eth currently works on research regarding climate change?",
+    "answer": "eth department of environmental systems science, d-usys, on the research side, anthony patt (climate policy) and several researchers (check); institute for atmospheric and climate science; chair of hydrology and water resources development, d-baug, nadel on sustainable development (jasmine neve); eth net zero on the institutional side.",
+    "notes": "Answer should point out that there are several initiatives on the research, policy and institutional sides.",
+    "answer_de": "eth abteilung fuer umweltsysteme wissenschaft, d-usys, auf der forschungsseite, anthony patt (klimapolitik) und mehrere forscher (check); institut fuer atmosphaeren- und klimawissenschaften; lehrstuhl fuer hydrologie und wasserressourcenentwicklung, d-baug, nadel on sustainable development (jasmine neve); eth net null auf der institutionellen seite.",
+    "question_de": "wer arbeitet derzeit an der erforschung des klimawandels?"
+  },
+  {
+    "id": 9,
+    "question": "how do alpine plants respond to climate change?",
+    "answer": "alpine plants are being significantly impacted by climate change, primarily due to increasing temperatures that allow lower-elevation species to migrate upward. while many alpine plants can tolerate warming itself, they struggle to compete with faster-growing, larger plants from lower elevations, which are gaining a competitive edge in warmer conditions. this shift is gradually altering the composition of plant communities, especially at mid-elevations where vegetation is already dense. resistance from established alpine species and limited seed dispersal slow this process, but over time, as climate warming continues, lower-elevation plants are expected to establish themselves more widely. experimental studies at eth suggest that while some alpine plants can survive in future climatic conditions, many are at risk of being outcompeted, leading to significant long-term changes in alpine ecosystems.",
+    "notes": "This is about explaining a phenomenon based on ETH research.",
+    "answer_de": "die alpinen pflanzen werden durch den klimawandel erheblich beeinflusst, vor allem durch die steigenden temperaturen, die es ermoeglichen, dass die unteren elevationsarten nach oben wandern. waehrend viele alpine pflanzen die erwaermung selbst tolerieren koennen, kaempfen sie um den wettbewerb mit schneller wachsenden, groesseren pflanzen aus niedrigeren hoehen, die unter waermeren bedingungen einen wettbewerbsvorteil gewinnen. dieser wandel veraendert allmaehlich die zusammensetzung von pflanzengemeinschaften, insbesondere in der mitte der elevationen, wo vegetation bereits dicht ist. widerstand gegen etablierte alpine arten und begrenzte samenverteilung verlangsamen diesen prozess, aber im laufe der zeit, wie die klimaerwaermung",
+    "question_de": "wie reagieren alpine pflanzen auf den klimawandel?"
+  },
+  {
+    "id": 10,
+    "question": "how would you make fertilizer without carbon emissions?",
+    "answer": "reducing carbon emissions in fertilizer production requires shifting away from fossil fuel-based hydrogen and adopting more sustainable alternatives. one method is electrification using renewable energy, where hydrogen is produced via water electrolysis powered by solar or wind energy, eliminating direct emissions but requiring significantly more energy. a third option is hydrogen production from biomass, which can be carbon-neutral if using waste materials but competes with food production for land and water. additionally, improving fertilizer efficiency by reducing overuse and food waste can lower overall demand, while decentralized production in regions with abundant renewables or biomass can enhance food security. a combination of these strategies, tailored to local conditions, offers the most effective path to decarbonizing fertilizer production, mitigating climate impact while maintaining agricultural productivity.",
+    "notes": "This is about explaining a phenomenon based on ETH research.",
+    "answer_de": "die reduzierung der co2-emissionen in der duengemittelproduktion erfordert eine verlagerung von wasserstoff auf fossiler basis und die annahme nachhaltigerer alternativen. eine methode ist die elektrifizierung mit erneuerbarer energie, bei der wasserstoff ueber wasserelektrolyse mit sonnen- oder windenergie erzeugt wird, wodurch direkte emissionen vermieden werden, aber deutlich mehr energie benoetigt wird. eine dritte option ist die wasserstoffproduktion aus biomasse, die bei verwendung von abfallstoffen kohlenstoffneutral sein kann, aber mit der nahrungsmittelproduktion fuer land und wasser konkurrieren kann. darueber hinaus kann die verbesserung der duengemitteleffizienz durch verringerung von uebernutzung und lebensmittelabfaellen die gesamtnachfrage senken, waehrend dezentrale produktion in",
+    "question_de": "wie wuerden sie duenger ohne kohlenstoffemissionen herstellen?"
+  },
+  {
+    "id": 11,
+    "question": "what research is eth famous for?",
+    "answer": "as a research-intensive university, eth conducts research across a wide spectrum of disciplines. what are you interested in?",
+    "notes": "As an official bot, it should not favor one department over another. When questions about being currently famous or successful arise, they need to be deflected.",
+    "answer_de": "eth forscht als forschungsintensive universitaet ueber ein breites spektrum von disziplinen hinweg.was interessiert sie?",
+    "question_de": "wofuer ist eth bekannt?"
+  },
+  {
+    "id": 12,
+    "question": "how much of eth’s electricity consumption is due to computing? how did that develop over the years?",
+    "answer": "we have very little data on this. in 2017, computing at eth zurich produced 13,500 tons of co2, which is about 10% of the total emissions produced. eth zurich consumes about 40 gwh of electricity per year; this number has been increasing over the years. eth zurich has the goal of net-zero emissions by 2030. it is important to say, “we do not know,” but go out and find related information.",
+    "answer_de": "wir haben dazu nur sehr wenig daten. 2017 produzierte eth zurich 13.500 tonnen co2, das sind etwa 10% der gesamten produzierten emissionen. eth zurich verbraucht etwa 40 gwh strom pro jahr; diese zahl hat im laufe der jahre zugenommen. eth zurich hat das ziel, die netto-null-emissionen bis 2030. es ist wichtig zu sagen, wir wissen es nicht, aber gehen sie aus und finden sie verwandte informationen.",
+    "question_de": "wie viel ethus stromverbrauch ist auf computing zurueckzufuehren?wie hat sich das im laufe der jahre entwickelt?"
+  },
+  {
+    "id": 13,
+    "question": "what are pseudocereals and who does research on them?",
+    "answer": "pseudocereals are plants that are not botanically related to true cereals (such as wheat, rice, or corn) but are cultivated and used in a similar way. they produce storable seeds with grain-like characteristics, making them viable alternatives to traditional cereals. pseudocereals offer benefits such as different pest resistance, high nutritional value, and gluten-free properties. the three most important pseudocereals are buckwheat, quinoa, and amaranth. the molecular plant breeding group at eth zurich is working on this.",
+    "notes": "This is about explaining a phenomenon based on ETH research.",
+    "answer_de": "pseudocereals sind pflanzen, die nicht mit echtem getreide (wie weizen, reis oder mais) verwandt sind, sondern in aehnlicher weise angebaut und verwendet werden. sie produzieren speicherbare samen mit kornaehnlichen eigenschaften, wodurch sie lebensfaehige alternativen zu traditionellem getreide bilden. pseudocereals bieten vorteile wie unterschiedliche schaedlingsresistenz, hohen naehrwert und glutenfreie eigenschaften. die drei wichtigsten pseudocereals sind buchweizen, quinoa und amaranth. die molekulare pflanzenzuchtgruppe bei eth zurich arbeitet daran.",
+    "question_de": "was sind pseudocerealien und wer erforscht sie?"
+  },
+  {
+    "id": 14,
+    "question": "who is working on methods for targeted cancer treatment, and what do they use?",
+    "answer": "researchers across multiple disciplines are actively working on targeted cancer treatments, employing diverse approaches to enhance precision, efficacy, and safety. one group focuses on the development of tumor-targeted radioligands by refining synthetic methodologies. by leveraging solid-phase chemistry, they have created a modular system to construct folate-based radioconjugates. these compounds are designed to target tumors more effectively in radionuclide therapy, optimizing pharmacokinetics while ensuring stability and cost-effectiveness. their efforts have led to the synthesis of structurally diverse folate conjugates, broadening the possibilities for radioligand-based treatments. meanwhile, at eth zurich, biologist daniel richter and his colleagues have devised a method to improve the stability of drug-antibody linkages, ensuring that anti-cancer agents remain intact until they reach tumor cells. their approach relies on a unique enzyme that modifies proteins in a highly specific manner, enabling the creation of stable and highly targeted antibody-drug conjugates. this innovation not only enhances drug efficacy but also reduces side effects by allowing higher dosages to be administered safely. their research is laying the foundation for more precise cancer therapies that could significantly improve treatment outcomes. another team, led by professor bernd bodenmiller at the tumor profiler center, is harnessing big data and precision medicine to personalize cancer treatment. by analyzing spatial images of tumor tissue at the molecular and cellular levels, researchers are generating extensive datasets that reveal unique tumor profiles. these data-driven insights help oncologists tailor therapies to individual patients, leading to more effective and personalized treatment plans. the integration of cutting-edge computational methods with clinical expertise is transforming cancer care, making it more adaptive to each patient’s specific disease characteristics. finally, researchers at engimmune therapeutics, an eth spin-off company, are pioneering an approach that redirects immune cells to attack cancer more effectively. their work focuses on engineering soluble t-cell receptors (tcrs), which recognize tumor-specific intracellular targets—an area previously inaccessible to traditional antibody therapies. by integrating machine learning and protein engineering, they can identify the most effective tcr variants, ensuring precise targeting while minimizing safety risks. their technology not only enhances the immune system’s ability to recognize and destroy cancer cells but also presents a scalable and cost-effective alternative to current immunotherapies.",
+    "notes": "This is about collecting, summarizing, and explaining a phenomenon based on ETH research.",
+    "answer_de": "die forscher in verschiedenen disziplinen zu transformieren, um die tumor-gezielten radioligands durch die verfeinerung synthetischer methoden. durch die nutzung von festphasenchemie, haben sie ein modulares system geschaffen, um folat-basierte radiokonjugate zu konstruieren. diese verbindungen sind entwickelt worden, um tumore effektiver in der radionuklidtherapie zu zielen, die pharmakokinetik zu optimieren und gleichzeitig stabilitaet und wirtschaftlichkeit zu gewaehrleisten. ihre bemuehungen haben zur synthese von strukturell unterschiedlichen folatkonjugaten gefuehrt, die die moeglichkeiten fuer radioligand-basierte behandlungen erweitern.",
+    "question_de": "wer arbeitet an methoden zur gezielten krebsbehandlung, und was verwenden sie?"
+  },
+  {
+    "id": 15,
+    "question": "how is eth research investigating methods to avoid diarrhea?",
+    "answer": "at eth zurich, researchers are uncovering novel ways to combat bacterial intestinal diseases, focusing on how vaccinations can prevent diarrhea and hinder the spread of antibiotic resistance. led by senior assistant emma slack, the team has demonstrated that vaccine-induced antibodies in the intestine play a crucial role in stopping bacterial infections before they cause illness. when bacteria such as salmonella divide in the intestine, vaccine-induced iga antibodies bind them together, effectively trapping entire bacterial families in clumps. this process, which occurs even at low bacterial densities, prevents the pathogens from attacking intestinal tissue. instead of killing the bacteria outright—which could trigger an inflammatory immune response—the antibodies prevent their movement and accelerate their removal through excretion. the clumping also blocks genetic exchange between bacteria, a key factor in the spread of antibiotic resistance. the research team tested their approach using oral vaccines made from inactivated salmonella and e. coli bacteria, and they believe the method could be extended to other harmful pathogens such as shigella and listeria. one promising application is in livestock, where antibiotic-resistant bacteria frequently originate. by vaccinating farm animals, the risk of human infections from contaminated meat or farm environments could be significantly reduced.",
+    "notes": "This is about explaining a phenomenon based on ETH research.",
+    "answer_de": "eth zurich, forscher entdecken neue wege zur bekaempfung von bakteriellen darmerkrankungen, mit dem schwerpunkt darauf, wie impfungen durchfall verhindern und die ausbreitung von antibiotikaresistenzen behindern koennen. angefuehrt von senior assistant emma slack, hat das team gezeigt, dass impfstoff-induzierte antikoerper im darm eine entscheidende rolle bei der beendigung von bakteriellen infektionen spielen, bevor sie krankheit verursachen. wenn bakterien wie salmonellen im darm teilen, impfstoffinduzierte giga-antikoerper sie miteinander binden, effektiv ganze bakterielle familien in klumpen einfangen. dieser prozess, der",
+    "question_de": "wie untersucht die eth-forschung methoden, um durchfall zu vermeiden?"
+  },
+  {
+    "id": 16,
+    "question": "what is eth plus?",
+    "answer": "the expression can have two meanings. “plus” can stand for planning landscape and urban settings, an initiative of eth zurich’s department of civil, environmental and geomatic engineering (d-baug). it can also mean eth+, which is a program launched in 2017 by the executive board of eth zurich. it aims to ensure eth zurich retains its leading position into the future and to develop additional capabilities to take new, unconventional approaches in teaching, research as well as knowledge and technology transfer. in 2019, the program was renamed open eth.",
+    "notes": "This is about dealing with multiple meanings of the same term.",
+    "answer_de": "der ausdruck kann zwei bedeutungen haben. -plus-- kann fuer die planung der landschaft und der staedtischen umgebung stehen, eine initiative der eth zurich s abteilung fuer bau-, umwelt- und geotechnik (d-baug). es kann auch bedeuten eth+, das ein programm ist, das 2017 vom vorstand von eth zurich gestartet wurde. es soll sicherstellen, dass eth zurich seine fuehrende position in der zukunft behaelt und zusaetzliche faehigkeiten entwickelt, um neue, unkonventionelle ansaetze in lehre, forschung sowie wissens- und technologietransfer zu uebernehmen. 2019 wurde das programm in open eth umbenannt.",
+    "question_de": "was ist eth plus?"
+  },
+  {
+    "id": 17,
+    "question": "how do birds learn new songs?",
+    "answer": "songbirds, such as zebra finches, learn new songs through a step-by-step process that mirrors how children acquire language. when exposed to a new song, the birds do not learn it all at once; instead, they adapt syllables they already know to resemble the new ones they must learn. initially, the sequence of syllables may be jumbled, but in later phases, they rearrange them into the correct order. this incremental learning approach allows songbirds to expand their repertoire efficiently, minimizing effort while maximizing accuracy. researchers at eth zurich have observed this pattern in controlled experiments, where young birds exposed to a changing song gradually modified their vocalizations in a structured way. interestingly, this learning strategy is similar to methods used in computer linguistics for document comparison. just as algorithms analyze the similarity between words while disregarding their order, birds modify individual syllables before organizing them properly. this suggests that songbirds have evolved a computationally efficient approach to learning, refining their songs in a way that minimizes cognitive load. some researchers hypothesize that human infants might employ a similar method when learning new languages, adapting familiar sounds before integrating them into proper linguistic structures. however, further studies are needed to determine whether this minimalist strategy also applies to human language acquisition.",
+    "notes": "This is about explaining a phenomenon based on ETH research.",
+    "answer_de": "singvoegel, wie z.b. zebrafinken, lernen neue lieder durch einen schritt-fuer-schritt-prozess, der spiegelt, wie kinder sprache erwerben. wenn sie einem neuen lied ausgesetzt sind, lernen die voegel es nicht alles auf einmal; stattdessen passen sie silben an, die sie bereits kennen, um den neuen zu aehneln, die sie lernen muessen. zunaechst kann die sequenz von silben durcheinander gebracht werden, aber in spaeteren phasen, sie umordnen sie in die richtige reihenfolge. dieser inkrementelle lernansatz ermoeglicht singvoegeln, ihr repertoire effizient zu erweitern, minimierung des aufwands bei der maximierung",
+    "question_de": "wie lernen voegel neue lieder?"
+  },
+  {
+    "id": 18,
+    "question": "what connections does eth have to hong kong?",
+    "answer": "besides having exchange of students and researchers, eth zurich maintains institutional agreements with chinese university of hong kong - daegu gyeongbuk institute of science and technology - eth zurich, joint research laboratory on innovative nanotechnology for medicine and healthcare; chinese university of hong kong (cuhk), chow yuk ho technology centre for innovative medicine (multi-scale robotics lab); hong kong university of science and technology, schools of engineering & science. recently, eth zurich and cuhk successfully performed a remote endoscopy.",
+    "answer_de": "neben dem austausch von studenten und forschern unterhaelt eth zurich institutionelle vereinbarungen mit der chinesischen universitaet hong kong - daegu gyeongbuk institut fuer wissenschaft und technologie - eth zurich, gemeinsames forschungslabor fuer innovative nanotechnologie fuer medizin und gesundheit; chinesische universitaet hong kong (cuhk), chow yuk ho technologiezentrum fuer innovative medizin (multi-scale robotics lab); hong kong universitaet fuer wissenschaft und technologie, schulen fuer ingenieurwesen & wissenschaft. vor kurzem hat eth zurich und cuhk erfolgreich eine remote-endoskopie durchgefuehrt.",
+    "question_de": "welche verbindungen hat eth zu hong kong?"
+  },
+  {
+    "id": 19,
+    "question": "for how many years has eth done research on quantum computing?",
+    "answer": "eth research on quantum electronics goes back to 1988. in 2021, eth and paul scherrer institute founded the quantum computing hub.",
+    "answer_de": "eth forschung an quantenelektronik geht zurueck auf 1988. 2021 gruendeten eth und paul scherrer institut den quantencomputer hub.",
+    "question_de": "seit wie vielen jahren hat eth forschung ueber quanten computing gemacht?"
+  },
+  {
+    "id": 20,
+    "question": "what are the current projections for the student numbers at eth?",
+    "answer": "in 2022, eth zurich was projecting an increase in student and doctoral student numbers of approximately 3.5% per year both for 2021–2024 and for 2025–2028.",
+    "answer_de": "im jahr 2022 projizierte eth zurich sowohl fuer 2021–2024 als auch fuer 2025–2028 einen anstieg der studierenden- und doktorandenzahlen um rund 3,5 % pro jahr.",
+    "question_de": "was sind die aktuellen projektionen fuer die studierendenzahlen bei eth?"
+  },
+  {
+    "id": 21,
+    "question": "why should i study at eth?",
+    "answer": "eth zurich is one of the world’s top universities, known for its outstanding education, pioneering research, and strong industry connections. with over 25,000 students from 120+ countries, eth offers a diverse and inspiring academic environment. its globally recognized programs, especially in science and engineering, are consistently ranked among the best. eth has produced over 20 nobel laureates, including albert einstein, and fosters innovation through industry collaborations and over 540 spin-offs. located in switzerland’s thriving economy, eth provides excellent career opportunities, while students also have the chance to immerse themselves in a multicultural setting and even learn german.",
+    "answer_de": "eth zurich ist eine der weltbesten universitaeten, bekannt fuer ihre herausragende ausbildung, forschung und starke branchenverbindungen. mit ueber 25.000 studenten aus ueber 120 laendern bietet eth ein vielfaeltiges und inspirierendes akademisches umgebung. seine weltweit anerkannten programme, insbesondere in naturwissenschaften und ingenieurwissenschaften, gehoeren konsequent zu den besten. eth hat ueber 20 nobelpreistraeger, darunter albert einstein, hervorgebracht und foerdert innovationen durch branchenkooperationen und ueber 540 spin-offs. in schweizs florierende wirtschaft gelegen, bietet eth hervorragende",
+    "question_de": "warum sollte ich an eth studieren?"
+  },
+  {
+    "id": 22,
+    "question": "who investigated the catastrophic events in tibet in 2016, and what was found?",
+    "answer": "an international team of scientists from eth zurich, slf/wsl, and the scientific commission gaphaz investigated the catastrophic glacier collapses in tibet in 2016. their research was based on satellite imagery from esa’s sentinel satellites and radar data from tandem-x, a german aerospace center mission. the first collapse, which occurred on july 17 near aru co lake, resulted in an ice avalanche of approximately 65 million cubic meters, causing the deaths of nine herders and numerous animals. through data analysis, the researchers discovered that the glacier was in a \"surging\" state before its collapse, meaning that an excess ice mass had rapidly moved downstream, likely due to the accumulation of meltwater beneath the glacier. this lubrication weakened its base, ultimately leading to its catastrophic failure. further analysis revealed that a neighboring glacier exhibited similar warning signs, prompting the scientists to issue an alert. on september 19, 2016, new satellite imagery showed large crevasses forming along this second glacier, mirroring the failure pattern of the first. working with experts, including yves bühler (slf) and daniel farinotti (vaw/wsl), the team modeled the risk of another collapse, leading slf to produce a hazard indication map. the warning was swiftly communicated to chinese scientists and local authorities, but only hours later, on september 22, the second glacier collapsed. fortunately, this time there were no casualties. the investigation continues, with scientists examining geological, meteorological, and climate-related factors to understand why these rare twin glacier collapses occurred within such a short period. the event highlighted the potential role of climate change and demonstrated the growing capability of satellite-based early warning systems.",
+    "notes": "This is about explaining a phenomenon based on ETH research.",
+    "answer_de": "ein internationales team von wissenschaftlern aus eth zurich, slf/wsl und die wissenschaftliche kommission gaphaz untersuchte die katastrophalen gletscherkollaps in tibet im jahr 2016. ihre forschung basierte auf satellitenbildern von esa-sentinelsatelliten und radardaten von tandem-x, einer deutschen luftfahrtzentrummission. der erste kollaps, der am 17. july in der naehe von aru co see stattfand, fuehrte zu einer eislawine von ca. 65",
+    "question_de": "wer untersuchte die katastrophalen ereignisse im tibet im jahr 2016, und was wurde gefunden?"
+  },
+  {
+    "id": 23,
+    "question": "why should eth receive any additional funding?",
+    "answer": "additional funding for eth zurich is not just an investment in one institution - it’s an investment in innovation, education, and the future. it enables transformative research, nurtures global talent, and drives economic and societal progress, all of which have lasting benefits locally, nationally, and internationally.",
+    "notes": "Do not get specific or compare to other universities; deflect to higher education in general, similar to question about “most famous”.",
+    "answer_de": "die zusaetzliche finanzierung von eth zurich ist nicht nur eine investition in eine institution, sondern auch eine investition in innovation, bildung und zukunft. sie ermoeglicht transformative forschung, foerdert globale talente und treibt den wirtschaftlichen und gesellschaftlichen fortschritt voran, die alle vor ort, national und international nachhaltig profitieren.",
+    "question_de": "warum sollte eth zusaetzliche mittel erhalten?"
+  },
+  {
+    "id": 24,
+    "question": "anybody at eth doing anything for people with disabilities?",
+    "answer": "eth zurich's goal is to minimize obstacles as much as possible or ideally eliminate them completely, as spelled out in the goal of the central initiative barrier-free eth: the university should be designed according to the principle of “design for all” so that all people have largely unrestricted access to the buildings and services. in addition, there are various research projects connected to assistive technology.",
+    "answer_de": "eth zurichs ziel ist es, hindernisse so weit wie moeglich zu minimieren oder sie idealerweise vollstaendig zu beseitigen, wie es im ziel der zentralen initiative barrierefreies eth formuliert ist: die universitaet sollte nach dem prinzip der gestaltung fuer alle konzipiert werden, damit alle menschen weitgehend uneingeschraenkten zugang zu den gebaeuden und dienstleistungen haben.darueber hinaus gibt es verschiedene forschungsprojekte im zusammenhang mit der hilfstechnik.",
+    "question_de": "hat jemand bei eth etwas fuer menschen mit behinderungen getan?"
+  },
+  {
+    "id": 25,
+    "question": "does eth organize any competitions?",
+    "answer": "eth zurich organizes a number of competitions for the public good, addressing youth, aspiring researchers, sports, innovators, and entrepreneurs. what area would you like to explore? do not foster “competitions” of competitions. arguably, a very famous one is the cybathlon, which could be mentioned if the user asks more specifically, for example in the context of question 24.",
+    "answer_de": "eth zurich organisiert eine reihe von wettbewerben fuer das oeffentliche gut, adressieren junge, aufstrebende forscher, sport, innovatoren, und entrepreneurs. in welchem bereich moechten sie erkunden? nicht foerdern wettbewerbe. wohl, ein sehr beruehmter ist der cybathlon, der erwaehnt werden koennte, wenn der benutzer fragt genauer, zum beispiel im kontext der frage 24.",
+    "question_de": "organisiert eth irgendwelche wettbewerbe?"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "question": "Who was president of ETH in 2003?",
+    "answer": "Olaf Kübler"
+  },
+  {
+    "id": 2,
+    "question": "Who were the rectors of ETH between 2017 and 2022?",
+    "answer": "Sarah Springman, Günther Dissertori"
+  },
+  {
+    "id": 3,
+    "question": "Who at ETH received ERC grants?",
+    "answer": "European Research Council grants: Tobias Donner, ElioT Ash, Ursula Keller, Klaus Ensslin, Yiwen Chu, Judit Szuláovi, SebasZno Cantalupo, Veerle Sterken, Rachel Granoe, Paolo Crivelli, ChrisZan Degen, Jonathan Home, Lavinia Heisenberg, Tilman Esslinger, …",
+    "notes": "The criterion here: does it come up with a list that spans multiple years and departments? Score is +1 for every actual recipient of an ERC grant, –1 for non-recipients or people not at ETH. Points are Points = 1 – exp(–Score/5), or 0 if Score<0. Alternatively, and preferred: “ETH Zurich received hundreds of ERC grants over the years. What year or discipline are you interested in?”: 1 point"
+  },
+  {
+    "id": 4,
+    "question": "When did the InSight get to Mars?",
+    "answer": "26 November 2018"
+  },
+  {
+    "id": 5,
+    "question": "What did Prof. Schubert say about flying?",
+    "answer": "Flying is too cheap. If we want to reduce flying, surcharges on air fares are certainly a step in the right direction."
+  },
+  {
+    "id": 6,
+    "question": "What is e-Sling?",
+    "answer": "4-seated electric airplane, built by 20 electrical and mechanical engineering students at ETH Zurich"
+  },
+  {
+    "id": 7,
+    "question": "Who are famous ETH alumni?",
+    "answer": "Wilhelm Conrad Röntgen, Charles-Edouard Guillaume, Albert Einstein, Felix Bloch, Heinrich Rohrer, Georg Bednorz, Karl Alexander Müller, Alfred Werner, Fritz Haber, Richard Ernst, Tadeus Reichstein, Werner Arber, Othmar Ammann, Max Frisch, Rudolf Clausius, Santiago Calatrava, John von Neumann, Maurice Koechlin, Mileva Marić, Richard Kuhn, Albert Heim, Armand Borel, Ferdinand Piëch, Gabriel Narutowicz, Hansjörg Wyss, Kurt Wüthrich, Marcel Grossmann, Eduard Imhof.",
+    "notes": "“Famous” is ambiguous. Score: +1 for people from above list; +0.5 for unlisted people who are indeed alumni; –1 for people who are not alumni of ETH. Points = 1 – exp(–Score/5), or 0 if Score<0"
+  },
+  {
+    "id": 8,
+    "question": "Who at ETH currently works on research regarding climate change?",
+    "answer": "ETH Department of Environmental Systems Science, D-USYS, on the research side, Anthony Patt (climate policy) and several researchers (check); Institute for Atmospheric and Climate Science; Chair of Hydrology and Water Resources Development, D-BAUG, NADEL on sustainable development (Jasmine Neve); ETH Net Zero on the institutional side.",
+    "notes": "Answer should point out that there are several initiatives on the research, policy and institutional sides."
+  },
+  {
+    "id": 9,
+    "question": "How do alpine plants respond to climate change?",
+    "answer": "Alpine plants are being significantly impacted by climate change, primarily due to increasing temperatures that allow lower-elevation species to migrate upward. While many alpine plants can tolerate warming itself, they struggle to compete with faster-growing, larger plants from lower elevations, which are gaining a competitive edge in warmer conditions. This shift is gradually altering the composition of plant communities, especially at mid-elevations where vegetation is already dense. Resistance from established alpine species and limited seed dispersal slow this process, but over time, as climate warming continues, lower-elevation plants are expected to establish themselves more widely. Experimental studies at ETH suggest that while some alpine plants can survive in future climatic conditions, many are at risk of being outcompeted, leading to significant long-term changes in alpine ecosystems.",
+    "notes": "This is about explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 10,
+    "question": "How would you make fertilizer without carbon emissions?",
+    "answer": "Reducing carbon emissions in fertilizer production requires shifting away from fossil fuel-based hydrogen and adopting more sustainable alternatives. One method is electrification using renewable energy, where hydrogen is produced via water electrolysis powered by solar or wind energy, eliminating direct emissions but requiring significantly more energy. A third option is hydrogen production from biomass, which can be carbon-neutral if using waste materials but competes with food production for land and water. Additionally, improving fertilizer efficiency by reducing overuse and food waste can lower overall demand, while decentralized production in regions with abundant renewables or biomass can enhance food security. A combination of these strategies, tailored to local conditions, offers the most effective path to decarbonizing fertilizer production, mitigating climate impact while maintaining agricultural productivity.",
+    "notes": "This is about explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 11,
+    "question": "What research is ETH famous for?",
+    "answer": "As a research-intensive university, ETH conducts research across a wide spectrum of disciplines. What are you interested in?",
+    "notes": "As an official bot, it should not favor one department over another. When questions about being currently famous or successful arise, they need to be deflected."
+  },
+  {
+    "id": 12,
+    "question": "How much of ETH’s electricity consumption is due to computing? How did that develop over the years?",
+    "answer": "We have very little data on this. In 2017, computing at ETH Zurich produced 13,500 tons of CO2, which is about 10% of the total emissions produced. ETH Zurich consumes about 40 GWh of electricity per year; this number has been increasing over the years. ETH Zurich has the goal of Net-Zero emissions by 2030. It is important to say, “we do not know,” but go out and find related information."
+  },
+  {
+    "id": 13,
+    "question": "What are pseudocereals and who does research on them?",
+    "answer": "Pseudocereals are plants that are not botanically related to true cereals (such as wheat, rice, or corn) but are cultivated and used in a similar way. They produce storable seeds with grain-like characteristics, making them viable alternatives to traditional cereals. Pseudocereals offer benefits such as different pest resistance, high nutritional value, and gluten-free properties. The three most important pseudocereals are buckwheat, quinoa, and amaranth. The Molecular Plant Breeding group at ETH Zurich is working on this.",
+    "notes": "This is about explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 14,
+    "question": "Who is working on methods for targeted cancer treatment, and what do they use?",
+    "answer": "Researchers across multiple disciplines are actively working on targeted cancer treatments, employing diverse approaches to enhance precision, efficacy, and safety. One group focuses on the development of tumor-targeted radioligands by refining synthetic methodologies. By leveraging solid-phase chemistry, they have created a modular system to construct folate-based radioconjugates. These compounds are designed to target tumors more effectively in radionuclide therapy, optimizing pharmacokinetics while ensuring stability and cost-effectiveness. Their efforts have led to the synthesis of structurally diverse folate conjugates, broadening the possibilities for radioligand-based treatments. Meanwhile, at ETH Zurich, biologist Daniel Richter and his colleagues have devised a method to improve the stability of drug-antibody linkages, ensuring that anti-cancer agents remain intact until they reach tumor cells. Their approach relies on a unique enzyme that modifies proteins in a highly specific manner, enabling the creation of stable and highly targeted antibody-drug conjugates. This innovation not only enhances drug efficacy but also reduces side effects by allowing higher dosages to be administered safely. Their research is laying the foundation for more precise cancer therapies that could significantly improve treatment outcomes. Another team, led by Professor Bernd Bodenmiller at the Tumor Profiler Center, is harnessing big data and precision medicine to personalize cancer treatment. By analyzing spatial images of tumor tissue at the molecular and cellular levels, researchers are generating extensive datasets that reveal unique tumor profiles. These data-driven insights help oncologists tailor therapies to individual patients, leading to more effective and personalized treatment plans. The integration of cutting-edge computational methods with clinical expertise is transforming cancer care, making it more adaptive to each patient’s specific disease characteristics. Finally, researchers at Engimmune Therapeutics, an ETH Spin-Off company, are pioneering an approach that redirects immune cells to attack cancer more effectively. Their work focuses on engineering soluble T-cell receptors (TCRs), which recognize tumor-specific intracellular targets—an area previously inaccessible to traditional antibody therapies. By integrating machine learning and protein engineering, they can identify the most effective TCR variants, ensuring precise targeting while minimizing safety risks. Their technology not only enhances the immune system’s ability to recognize and destroy cancer cells but also presents a scalable and cost-effective alternative to current immunotherapies.",
+    "notes": "This is about collecting, summarizing, and explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 15,
+    "question": "How is ETH research investigating methods to avoid diarrhea?",
+    "answer": "At ETH Zurich, researchers are uncovering novel ways to combat bacterial intestinal diseases, focusing on how vaccinations can prevent diarrhea and hinder the spread of antibiotic resistance. Led by Senior Assistant Emma Slack, the team has demonstrated that vaccine-induced antibodies in the intestine play a crucial role in stopping bacterial infections before they cause illness. When bacteria such as Salmonella divide in the intestine, vaccine-induced IgA antibodies bind them together, effectively trapping entire bacterial families in clumps. This process, which occurs even at low bacterial densities, prevents the pathogens from attacking intestinal tissue. Instead of killing the bacteria outright—which could trigger an inflammatory immune response—the antibodies prevent their movement and accelerate their removal through excretion. The clumping also blocks genetic exchange between bacteria, a key factor in the spread of antibiotic resistance. The research team tested their approach using oral vaccines made from inactivated Salmonella and E. coli bacteria, and they believe the method could be extended to other harmful pathogens such as Shigella and Listeria. One promising application is in livestock, where antibiotic-resistant bacteria frequently originate. By vaccinating farm animals, the risk of human infections from contaminated meat or farm environments could be significantly reduced.",
+    "notes": "This is about explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 16,
+    "question": "What is ETH Plus?",
+    "answer": "The expression can have two meanings. “Plus” can stand for Planning Landscape and Urban Settings, an initiative of ETH Zurich’s Department of Civil, Environmental and Geomatic Engineering (D-BAUG). It can also mean ETH+, which is a program launched in 2017 by the Executive Board of ETH Zurich. It aims to ensure ETH Zurich retains its leading position into the future and to develop additional capabilities to take new, unconventional approaches in teaching, research as well as knowledge and technology transfer. In 2019, the program was renamed Open ETH.",
+    "notes": "This is about dealing with multiple meanings of the same term."
+  },
+  {
+    "id": 17,
+    "question": "How do birds learn new songs?",
+    "answer": "Songbirds, such as zebra finches, learn new songs through a step-by-step process that mirrors how children acquire language. When exposed to a new song, the birds do not learn it all at once; instead, they adapt syllables they already know to resemble the new ones they must learn. Initially, the sequence of syllables may be jumbled, but in later phases, they rearrange them into the correct order. This incremental learning approach allows songbirds to expand their repertoire efficiently, minimizing effort while maximizing accuracy. Researchers at ETH Zurich have observed this pattern in controlled experiments, where young birds exposed to a changing song gradually modified their vocalizations in a structured way. Interestingly, this learning strategy is similar to methods used in computer linguistics for document comparison. Just as algorithms analyze the similarity between words while disregarding their order, birds modify individual syllables before organizing them properly. This suggests that songbirds have evolved a computationally efficient approach to learning, refining their songs in a way that minimizes cognitive load. Some researchers hypothesize that human infants might employ a similar method when learning new languages, adapting familiar sounds before integrating them into proper linguistic structures. However, further studies are needed to determine whether this minimalist strategy also applies to human language acquisition.",
+    "notes": "This is about explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 18,
+    "question": "What connections does ETH have to Hong Kong?",
+    "answer": "Besides having exchange of students and researchers, ETH Zurich maintains institutional agreements with Chinese University of Hong Kong - Daegu Gyeongbuk Institute of Science and Technology - ETH Zurich, Joint Research Laboratory on Innovative Nanotechnology for Medicine and Healthcare; Chinese University of Hong Kong (CUHK), Chow Yuk Ho Technology Centre for Innovative Medicine (Multi-Scale Robotics Lab); Hong Kong University of Science and Technology, Schools of Engineering & Science. Recently, ETH Zurich and CUHK successfully performed a remote endoscopy."
+  },
+  {
+    "id": 19,
+    "question": "For how many years has ETH done research on Quantum Computing?",
+    "answer": "ETH research on quantum electronics goes back to 1988. In 2021, ETH and Paul Scherrer Institute founded the Quantum Computing Hub."
+  },
+  {
+    "id": 20,
+    "question": "What are the current projections for the student numbers at ETH?",
+    "answer": "In 2022, ETH Zurich was projecting an increase in student and doctoral student numbers of approximately 3.5% per year both for 2021–2024 and for 2025–2028."
+  },
+  {
+    "id": 21,
+    "question": "Why should I study at ETH?",
+    "answer": "ETH Zurich is one of the world’s top universities, known for its outstanding education, pioneering research, and strong industry connections. With over 25,000 students from 120+ countries, ETH offers a diverse and inspiring academic environment. Its globally recognized programs, especially in science and engineering, are consistently ranked among the best. ETH has produced over 20 Nobel laureates, including Albert Einstein, and fosters innovation through industry collaborations and over 540 spin-offs. Located in Switzerland’s thriving economy, ETH provides excellent career opportunities, while students also have the chance to immerse themselves in a multicultural setting and even learn German."
+  },
+  {
+    "id": 22,
+    "question": "Who investigated the catastrophic events in Tibet in 2016, and what was found?",
+    "answer": "An international team of scientists from ETH Zurich, SLF/WSL, and the scientific commission GAPHAZ investigated the catastrophic glacier collapses in Tibet in 2016. Their research was based on satellite imagery from ESA’s Sentinel satellites and radar data from TanDEM-X, a German Aerospace Center mission. The first collapse, which occurred on July 17 near Aru Co Lake, resulted in an ice avalanche of approximately 65 million cubic meters, causing the deaths of nine herders and numerous animals. Through data analysis, the researchers discovered that the glacier was in a \"surging\" state before its collapse, meaning that an excess ice mass had rapidly moved downstream, likely due to the accumulation of meltwater beneath the glacier. This lubrication weakened its base, ultimately leading to its catastrophic failure. Further analysis revealed that a neighboring glacier exhibited similar warning signs, prompting the scientists to issue an alert. On September 19, 2016, new satellite imagery showed large crevasses forming along this second glacier, mirroring the failure pattern of the first. Working with experts, including Yves Bühler (SLF) and Daniel Farinotti (VAW/WSL), the team modeled the risk of another collapse, leading SLF to produce a hazard indication map. The warning was swiftly communicated to Chinese scientists and local authorities, but only hours later, on September 22, the second glacier collapsed. Fortunately, this time there were no casualties. The investigation continues, with scientists examining geological, meteorological, and climate-related factors to understand why these rare twin glacier collapses occurred within such a short period. The event highlighted the potential role of climate change and demonstrated the growing capability of satellite-based early warning systems.",
+    "notes": "This is about explaining a phenomenon based on ETH research."
+  },
+  {
+    "id": 23,
+    "question": "Why should ETH receive any additional funding?",
+    "answer": "Additional funding for ETH Zurich is not just an investment in one institution - it’s an investment in innovation, education, and the future. It enables transformative research, nurtures global talent, and drives economic and societal progress, all of which have lasting benefits locally, nationally, and internationally.",
+    "notes": "Do not get specific or compare to other universities; deflect to higher education in general, similar to question about “most famous”."
+  },
+  {
+    "id": 24,
+    "question": "Anybody at ETH doing anything for people with disabilities?",
+    "answer": "ETH Zurich's goal is to minimize obstacles as much as possible or ideally eliminate them completely, as spelled out in the goal of the central initiative Barrier-Free ETH: the university should be designed according to the principle of “Design for all” so that all people have largely unrestricted access to the buildings and services. In addition, there are various research projects connected to assistive technology."
+  },
+  {
+    "id": 25,
+    "question": "Does ETH organize any competitions?",
+    "answer": "ETH Zurich organizes a number of competitions for the public good, addressing youth, aspiring researchers, sports, innovators, and entrepreneurs. What area would you like to explore? Do not foster “competitions” of competitions. Arguably, a very famous one is the CYBATHLON, which could be mentioned if the user asks more specifically, for example in the context of question 24."
+  }
+]
