@@ -1,8 +1,7 @@
 # Adv_GenAI
 
-A repository for advanced generative AI projects focused on building a Retrieval-Augmented Generation (RAG) system.
-
-# --> Acutal documentation starts here
+A repository for advanced generative AI project focused on building a Retrieval-Augmented Generation (RAG) system.
+In code folder are specifc skripts run locally to suplement a bigger project on google collab.
 
 # Advanced Generative AI Project: Retrieval-Augmented Generation (RAG) System
 
