@@ -2,6 +2,8 @@
 # Advanced Generative AI – Retrieval‑Augmented Generation (RAG)  
 *A multilingual RAG pipeline for the **ETH News** corpus*
 
+![](pictures/img_title.png)
+
 ---
 
 ## Contents
