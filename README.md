@@ -25,6 +25,8 @@ Starting from raw HTML articles, the pipeline:
 3. Applies model‑agnostic reranking and context‑fusion to craft an LLM prompt  
 4. Evaluates answers automatically **and** with human raters  
 
+For full details and deliverables, please refer to the official **[Project Requirements.pdf](Project Requirements.pdf)** provided in the course materials.
+
 Everything can be executed locally or in Google Colab.
 
 ---
