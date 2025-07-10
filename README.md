@@ -32,7 +32,7 @@ Everything can be executed locally or in Google Colab.
 ## Notebooks & Phase‑by‑Phase Workflow
 
 ### Step 1 – Data Preparation
-> *Notebook:* **`[Step_1.ipynb](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_1.ipynb)`**
+> *Notebook:* **[`Step_1.ipynb`](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_1.ipynb)**
 
 ![Step 1 Workflow](pictures/step1_workflow.png)
 
@@ -67,7 +67,7 @@ Output (one JSON per article):
 ---
 
 ### Step 2.1 – Retrieval Agents
-> *Notebook:* **`[Step_2_1.ipynb](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_2_1.ipynb)`**
+> *Notebook:* **[`Step_2_1.ipynb`](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_2_1.ipynb)**
 
 ![Step 2.1 Workflow](pictures/step2_1_workflow.png)
 
@@ -80,7 +80,7 @@ Output (one JSON per article):
 ---
 
 ### Step 2.2 – Reranking & Answer Synthesis
-> *Notebook:* **`[Step_2_2.ipynb](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_2_2.ipynb)`**
+> *Notebook:* **[`Step_2_2.ipynb`](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_2_2.ipynb)**
 
 ![Step 2.2 Workflow](pictures/step2_2_workflow.png)
 
@@ -95,7 +95,7 @@ Pipeline:
 ---
 
 ### Step 3 – Evaluation
-> *Notebook:* **`[Step_3.ipynb](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_3.ipynb)`**
+> *Notebook:* **[`Step_3.ipynb`](https://github.com/andrigerber/Adv_GenAI/blob/main/Step_3.ipynb)**
 
 ![Step 3 Workflow](pictures/step3_workflow.png)
 
